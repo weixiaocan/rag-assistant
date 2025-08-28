@@ -1,7 +1,9 @@
 # 📚 RAG-Assistant
 
 一个基于 **LangChain + HuggingFace Embeddings + FAISS + Streamlit** 的轻量级 **RAG（检索增强生成）文档问答系统**。 
-支持多种文档解析（PDF、Word、PPT、HTML、Markdown、TXT），目标是构建一个支持多种文档上传，结合大模型完成语义问答的 AI 工具。。
+
+支持多种文档解析（PDF、Word、PPT、HTML、Markdown、TXT），目标是构建一个支持多种文档上传，结合大模型完成语义问答的 AI 工具。
+
 扩展方向：1、尝试本地运行大模型；2、支持各种文件样式均可以上传和解析；3、向量数据库覆盖和更新问题；4、对话的可记忆性；7、如何提高检索质量和回答得更好
 ---
 
