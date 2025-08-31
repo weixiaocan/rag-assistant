@@ -26,6 +26,7 @@ print(f"元素类型: {dict(types)}")
 # 显示所有元素
 print("\n所有元素:")
 for i, element in enumerate(elements, 1):
+    print(getattr(element, "text", None))
     print(f"Element {i} ({element.category}):")
     print(element)
     print("=" * 60)
